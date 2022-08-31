@@ -3,9 +3,9 @@ resources:
     type: GitRepo
     configuration:
       # SCM integration where the repository is located
-      gitProvider: GithubAPI # this will be replaced from values.yml
+      gitProvider: GithubAPI # name of the integration for github
       # Repository path, including org name/repo name
-      path: muldos/fresh-swamp # this will be replaced from values.yml
+      path: muldos/fresh-swamp
       branches:
         # Specifies which branches will trigger dependent steps
         include: main

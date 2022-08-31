@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       # SCM integration where the repository is located
-      gitProvider: GithubAPI # name of the integration for github
+      gitProvider: PersonalGithub # name of the integration for github
       # Repository path, including org name/repo name
       path: muldos/fresh-swamp
       branches:
